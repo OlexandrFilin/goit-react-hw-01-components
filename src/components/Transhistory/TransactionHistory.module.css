@@ -1,0 +1,39 @@
+.transactionHistory {
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin: 50px auto;
+  text-align: center;
+}
+
+thead {
+  background: blue;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 3px solid purple;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #cfa8c7;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e7dfe7;
+}
+
+tbody .row {
+  background-image: red;
+}
+
+table {
+  background-color: #cfa8c7;
+}
