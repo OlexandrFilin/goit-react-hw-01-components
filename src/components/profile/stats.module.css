@@ -1,0 +1,29 @@
+.stats {
+  display: flex;
+  column-gap: 1px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #becaa7;
+  width: 300px;
+}
+
+.statsItem {
+  width: 100px;
+  padding: 1px;
+  border: 1px solid rgb(140 140 92);
+  padding: 20px 0;
+}
+.label {
+  font-size: 18px;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.quantity {
+  display: block;
+  text-align: center;
+}

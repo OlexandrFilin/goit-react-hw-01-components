@@ -1,11 +1,12 @@
-import { Stats } from './stats';
-import { CardUser } from './CardUser/cardUser';
+import { Stats } from '../profile/stats';
+import { CardUser } from './cardUser';
+import css from './cardUser.module.css';
 
 const Profile = ({ dataUser }) => {
   const { username, tag, location, avatar, stats } = dataUser;
   const { followers, views, likes } = stats;
   return (
-    <div className="profile">
+    <div className={css.profile}>
       <CardUser
         username={username}
         tag={tag}

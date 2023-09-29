@@ -1,4 +1,4 @@
-import { Profile } from './prfile';
+import { Profile } from './profile/prfile';
 import dataUser from '../path/to/user.json';
 import { Statistics } from './Statistics';
 import statistictUser from '../path/to/data.json';
