@@ -1,6 +1,6 @@
 import { Profile } from './profile/prfile';
 import dataUser from '../path/to/user.json';
-import { Statistics } from './Statistics';
+import { Statistics } from './Statistic/Statistics';
 import statistictUser from '../path/to/data.json';
 import { FriendList } from './FriendList/FriendList';
 import friends from '../path/to/friends.json';
